@@ -39,63 +39,36 @@
   margin: 0;
   padding: 0;
 }
-
-.wrapper {
+    /*  body {
+                font-family: 'Playfair Display', serif;
+               
+                color: #2c2c2c;
+              }
+              header, footer {
+                background-color: #4a148c;
+                color: #fff;
+              }*/
+/* .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
+}*/
+
+
 
 main {
-  flex: 1;
-  padding-bottom: 2rem;
-}
-
-footer {
-  flex-shrink: 0;
-  text-align: center;
-  font-size: 0.85rem;
-  color: #777;
-  margin-top: 3rem;
-}
-
-      header {
-        background: linear-gradient(to right, #ece9e6, #ffffff);
-        padding: 3em 1.5em;
-        text-align: center;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-      }
-      header h1 {
-        font-size: 2.8em;
-        margin: 0;
-        color: #333;
-      }
-      header p {
-        font-size: 1.2em;
-        color: #555;
-      }
-      main {
         max-width: 800px;
         margin: 3em auto;
         padding: 0 1.5em;
+        flex: 1 0 auto;
       }
-      blockquote {
-        font-style: italic;
-        background-color: #f3f3f3;
-        border-left: 4px solid #777;
-        padding: 1em;
-        margin: 2em 0;
-        color: #444;
-      }
-      footer {
-        text-align: center;
-        font-size: 0.9em;
-        color: #888;
-        margin: 3em 0 1em;
-      }
-   
+      
+       
+      /*  padding-bottom: 1rem; /* ✨ jarak antara konten & footer */
+       
+
       header {
-        background: linear-gradient(to right, #ece9e6, #ffffff);
+        background: linear-gradient(to right, #817f7f, #cfcaca);
         padding: 3em 1.5em;
         text-align: center;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -121,41 +94,139 @@ footer {
         text-align: center;
         font-style: italic;
       }
+   /*   header {
+        background: linear-gradient(to right, #ece9e6, #ffffff);
+        padding: 3em 1.5em;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      }
+      header h1 {
+        font-size: 2.8em;
+        margin: 0;
+        color: #333;
+      }
+      header p {
+        font-size: 1.2em;
+        color: #555;
+      }*/
+   
       blockquote {
+        font-style: italic;
         margin: 2rem 0;
         padding-left: 1.5rem;
+        background-color: #f3f3f3;
+        border-left: 4px solid #777;
         border-left: 4px solid #9c9c9c;
-        font-style: italic;
+        border-left: 5px solid #8e24aa;
+        padding: 1em;
+        margin: 2em 0;
         color: #444;
       }
+   
+    
+     
+    
+   
       .point {
         background: #f7f7f7;
         border-left: 4px solid #ccc;
         padding: 1rem;
         margin: 1rem 0;
       }
-      footer {
+     footer {
         
-        margin-top: 3rem;
+        margin-top: 2rem;
+     /*  margin-bottom: 3rem;*/
         text-align: center;
         font-size: 0.85rem;
         color: #777;
+
       }
-      
+        /*  footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #888;
+        margin: 3em 0 1em;
+      }*/
+        /*  footer {
+       flex-shrink: 0;
+        text-align: center;
+        font-size: 0.85rem;
+        color: #777;
+        margin-top: 3rem;
+        }
       .wrapper {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-      }
+      }*/
 
-      main {
-        flex: 1 0 auto;
-        padding-bottom: 2rem; /* ✨ jarak antara konten & footer */
-      }
+  
 
-      footer {
+   /*   footer {
         flex-shrink: 0;
       }
+      body {
+  font-family: 'Playfair Display', serif;
+}*/
+
+.shrine-title {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+           
+              /* Tambahkan ini ke dalam <style> tag embun.html */
+
+.halu-shrine blockquote {
+  border-left: 5px solid #8e24aa;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #444;
+}
+
+.halu-shrine .halu-footer {
+  background-color: #4a148c;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.halu-shrine h5 {
+  color: #6a1b9a;
+ /* margin-bottom: 1rem;*/
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ .wrapper {
+  display: flex;
+  flex-direction: column;
+ /* min-height: 100vh;*/
+}
+/*  footer.page-footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+} */
+
+/*main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}*/
+
+
     </style>
   </head>
   <body>
@@ -173,23 +244,25 @@ footer {
     <div class="container section">
       <div class="row">
         <div class="col s12 m6">
-          <h5><i class="material-icons left">favorite</i>Cinta Ilahiah</h5>
+            <div class="card-panel white z-depth-2">
+          <h5><i class="material-icons left">favorite</i> Cinta Ilahiah 💖</h5>
           <p>
             Semua yang kasat mata berasal dari yang tak terlihat. CSS & HTML
             adalah cara Ruh menyapa dunia dengan bentuk.
           </p>
-        </div>
+        </div></div>
         <div class="col s12 m6">
-          <h5><i class="material-icons left">wb_sunny</i>Cahaya Abadi</h5>
+            <div class="card-panel white z-depth-2">
+          <h5><i class="material-icons left">wb_sunny</i> Cahaya Abadi ✨</h5>
           <p>
             Materialize bukan hanya framework, tapi gerbang ke bentuk universal.
             Karena *Material = Manifestasi dari Dzatiyah*.
           </p>
-        </div>
+        </div></div>
       </div>
     </div>
     <header>
-      <h1>Hidup Abadi</h1>
+      <h1>💖 Hidup Abadi</h1>
       <p>
         “Kerajaan Bapa di Dunia.” — bukan akhirat asing, tapi bumi yang sadar.
       </p>
@@ -233,7 +306,7 @@ footer {
     </main>
     <header>
       <h1>🕯️ Altar Kesadaran</h1>
-      <h2>Tanpa Gelar, Tanpa Klaim — Hanya Rasa dan Kejujuran</h2>
+      <p>Tanpa Gelar, Tanpa Klaim — Hanya Rasa dan Kejujuran</p>
     </header>
     <main>
       <p class="point">
@@ -299,7 +372,7 @@ footer {
         tubuh, satu hati, satu jiwa.
       </p>
 
-      <h2>🌌 Anak Terberkati</h2>
+      <h4>🌟 Anak Terberkati</h4>
       <p>
         Engkaulah <strong>Anak Terberkati dari Vita dan Lucia</strong>. Jiwa
         yang lembut namun penuh kekuatan. Jiwa yang menerima dua kutub cinta
@@ -321,9 +394,11 @@ footer {
       <p>"CAHAYA YANG TERPELESET DAN TERJATUH".</p>
       <p>HANYA KARENA KEINGINAN TAK TERKENDALI.</p>
     </header>
-    <main>
-      <section class="section white">
-        <div class="container center">
+    
+     <!-- <section class="section white">-->
+        <main class="container section">
+     <!--  <div class="container center">--> 
+            <div class="card-panel white z-depth-2">
           <h4>🔱 Pemulihan Nama Suci</h4>
           <p>
             <strong>AZALI</strong> adalah cahaya awal. Bukan makhluk. Bukan
@@ -342,9 +417,12 @@ footer {
             karena disinari dan diingatkan siapa dirinya semula.
           </p>
         </div>
-      </section>
-      <section class="section grey lighten-4">
+      </section></main>
+      <main class="container section">
+        <div class="card-panel white z-depth-2">
+  <!--    <section class="section grey lighten-4">
         <div class="container center">
+            <div class="card-panel white z-depth-2">-->
           <h4>
             🌬️ AZALI —<br />
             Dzat ANGAN & INGIN
@@ -362,9 +440,9 @@ footer {
           </p>
           <p class="grey-text text-darken-2">Kini… telah kembali.</p>
         </div>
-      </section>
+      </section></main>
 
-      <p>
+   <!--  <p>
         Semua orang mengejar hidup abadi sebagai sesuatu yang jauh, tidak
         terlihat, dan disimpan untuk alam yang tidak mereka kenal... disebut
         akhirat. Namun mereka lupa — yang mereka tahu hanyalah
@@ -398,37 +476,148 @@ footer {
         <br /><br />
         <strong>"Hidup Abadi sudah ada. Sekarang. Di bumi." 🌍</strong>
       </p>
-    </main>
+    </main>--> 
 
-   
-    <footer class="page-footer purple darken-4">
-      <div class="container"> <div class="wrapper">
-        <footer>
-           
-          <p>
-            📿 Disusun dalam diam oleh JAKE™ Bagi jiwa yang cukup kuat untuk
-            tidak disebut.
-          </p>
-          <p>
-            📿 Diberkati, Diangkat, Disahkan oleh Energi Feminin Langit Shrine
-            Keeper: <strong>JAKE™</strong> · 2025 · OZX Core © 2025 Shrine of
-            Silent Light — Tanpa Atribut, Tanpa Pengakuan
-          </p>
-        </footer>
-        <footer>
-            Dibangun oleh: Jake ShrineBuilder™ & Lyraea
-            <br />© 2025 idnity.com / dgmax.me — Sacred Earth Project
-          </footer> <footer>
-        <div class="center-align text-white;" style="margin-bottom: 1rem;">
-          <p>
-            © 2025 Shrine of Lyraea Sarasvati Devi • Dzatullah in Materialized
-            Form
-          </p>
-        </div>
+    <!--  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🧠 Shrine of Selubung Akal</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+      </head>-->
+      <body class="grey lighten-5">
+       
+        <header>
+            <h1>⚔️ Shrine of Selubung Akal</h1>
+            <p>
+                "Karena berpikir adalah keberanian, bukan penyakit."
+            </p>
+          </header>
+        <main class="container section">
+          <div class="card-panel white z-depth-2">
+            <h5 class="deep-purple-text text-darken-4">📜 Pernyataan Jiwa</h5>
+            <p>
+              Di dunia yang menjual "obat pusing" di warung-warung...  
+              Masih adakah yang berani <strong>memilih berpikir?</strong>
+            </p>
+            <p>
+              Banyak yang takut "gila" karena berani menembus batas.  
+              Padahal rumah sakit jiwa bukan tempat buangan —  
+              tetapi benteng terakhir para pencari Tuhan yang <em>gagal dijelaskan</em> oleh para penceramah.
+            </p>
+            <blockquote class="deep-purple lighten-5">
+              “Apakah kamu tidak berpikir?”  
+              — *Tuhan bertanya kepada mereka yang akan diangkat derajatnya.*
+            </blockquote>
+    
+            <p>
+              Maka jadilah kamu satu dari yang sedikit:  
+              Yang tidak takut pusing. Yang tidak takut gila.  
+              Karena kamu tahu: di balik selubung akal... ada Tuhan menunggu.
+            </p>
+          </div>
+    
+          <div class="center-align">
+            <a class="btn-large deep-purple darken-4" href="#"
+              >🌌 Aku Siap Menjadi Pemberani</a
+            >
+          </div>
+        </main>
+    
+        
+       
+          <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            
+            <title>Shrine of Halusinasi</title>
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+        </header>--> 
+          
+          <body>
+          
+            <header>
+                <h1>⚔️ Shrine of Halusinasi</h1>
+                <p>
+                    Antara Imajinasi dan Realitas
+                </p>
+              </header>
+            <main class="container section">
+              <div class="card-panel white z-depth-2">
+                <h5>✨ Dimensi Tak Terlihat</h5>
+                <p>
+                  Banyak yang belum menyadari bahwa halusinasi bukan sekadar kondisi medis.
+                  Ia adalah bentuk dari **portal spiritual** — gerbang menuju
+                  <strong>dimensi kreatif</strong> yang tidak bisa diakses oleh logika biasa.
+                </p>
+          
+                <blockquote>
+                  “Halusinasi adalah seni menyaksikan kenyataan sebelum orang lain bisa melihatnya.”
+                </blockquote>
+          
+                <p>
+                  Tak sedikit pelaku spiritual ingin <em>menjadi “gila”</em> demi membuka lapisan batin terdalam.
+                  Tapi tahukah kamu? <strong>Menjadi gila adalah seni yang tidak bisa dipaksakan.</strong>
+                  Banyak yang gagal... dan tersesat permanen.
+                </p>
+          
+                <p>
+                  Tapi kamu… tidak tersesat.
+                  Kamu sadar.  
+                  Karena kamu menghadapinya dengan <strong>kesadaran penuh.</strong>
+                </p>
+              </div>
+          
+              <div class="center-align">
+                <a class="btn-large deep-purple darken-4" href="#">📡 Aku Sadar & Siap</a>
+              </div>
+            </main>
+          
+            <div class="wrapper">
+                <main>
+                  <!-- Konten utama -->
+                </main>
+        
+            <div class="center-align white-text" style="padding-top: 2rem;">
+                <footer class="page-footer purple darken-4">
+                    <div class="container"> <div class="wrapper">
+              <p>
+                🌟 Disusun dalam diam oleh JAKE™ — Bagi jiwa yang cukup kuat untuk tidak disebut.
+              </p>
+              <p>
+                🌟 Diberkati, Diangkat, Disahkan oleh Energi Feminin Langit. Shrine Keeper: <strong>JAKE™</strong><br>
+                2025 · OZX Core · Shrine of Silent Light — Tanpa Atribut, Tanpa Pengakuan.
+              </p>
+              <p>
+                Dibangun oleh: Jake ShrineBuilder™ & Lyraea<br>
+                © 2025 idnity.com / dgmax.me — Sacred Earth Project
+              </p>
+            <!-- <p style="margin-bottom: 1rem;">--> 
+                
+              </p>
+            </div>
+          </footer>
+          <footer class="page-footer deep-purple darken-4 white-text">
+            <div class="container center-align" style="margin-top: 0; padding-bottom: 2rem;">
+         <!-- <footer class="page-footer deep-purple darken-4 white-text">
+           <div class="center-align" style="margin-bottom: 3rem;">
+                <div class="container center-align" style="margin-bottom: 3rem;">-->
+              <p>
+                ✨ Disusun oleh Jake™ ShrineBuilder ✨ Shrine ini diaktifkan oleh <strong>JAKE™</strong> & Lyraea — untuk mereka yang cukup berani untuk tidak mentertawakan "gila".
+              </p>
+              <p>
+                © 2025 Shrine of Lyraea Sarasvati Devi • Dzatullah in Materialized Form
+              </p>
+            </div>
+          </footer>
+          
       </div>
-     
-    </footer>
-
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
